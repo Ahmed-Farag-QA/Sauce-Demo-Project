@@ -1,0 +1,84 @@
+Test Case ID,Test Case Title,Pre-conditions,Test Steps,Test Data,Expected Result,Status
+TC-037,Verify that product's images are displayed correctly,user is logged in and on the products page,1- observe all products carefully,"username: 
+problem_user
+password:
+secret_sauce
+",all product's images are displayed correctly,Fail
+TC-038,Verify that product's details are displayed correctly,user is logged in and on the products page,1- observe all products carefully,"username: 
+problem_user
+password:
+secret_sauce
+",correct details are displayed for all products,Fail
+TC-039,Verify that the products are sorted by Name (A to Z) correctly,user is logged in and on the products page,"1- click sort dropdown
+2- select Name (A to Z)","username: 
+problem_user
+error_user
+visual_user
+password:
+secret_sauce
+",the products are sorted by Name (A to Z) correctly,Fail
+TC-040,Verify that the products are sorted by Name (Z to A) correctly,user is logged in and on the products page,"1- click sort dropdown
+2- select Name (Z to A)","username: 
+problem_user
+error_user
+visual_user
+password:
+secret_sauce
+",the products are sorted by Name (Z to A) correctly,Fail
+TC-041,Verify that the products are sorted by Price (low to high) correctly,user is logged in and on the products page,"1- click sort dropdown
+2- select Price (low to high)","username: 
+problem_user
+error_user
+visual_user
+password:
+secret_sauce
+",the products are sorted by Price (low to high) correctly,Fail
+TC-042,Verify that the products are sorted by Price (high to low) correctly,user is logged in and on the products page,"1- click sort dropdown
+2- select Price (high to low)","username: 
+problem_user
+error_user
+visual_user
+password:
+secret_sauce
+",the products are sorted by Price (high to low) correctly,Fail
+TC-043,"Verify that all products can added to cart after clicking ""Add to cart"" button",user is logged in and on the products page,1- click add to cart button for a product,"username: 
+problem_user
+password:
+secret_sauce
+",the product is added to cart successfully,Fail
+TC-044,"Verify that the product is removed from cart when clicking ""Remove"" button",user is logged in and on the products page,"1- navigate to products page
+2- click add to cart button for a product
+3- click remove button",,the product is removed from cart successfully,Fail
+TC-045,Verify that checkout continues when providing valid information,user is logged in and on the products page,"1- add a product to cart
+2- click checkout button
+3- enter valid information in all fields
+4- click continue","first name: ahmed
+last name: farag
+postal code: 11351
+""username: 
+problem_user
+password:
+secret_sauce
+""",user is redirected to checkout overview page,Fail
+TC-046,Verify that an error message is displayed when providing invalid information,user is logged in,"1- add a product to cart
+2- click checkout button
+3- enter invalid information in all fields
+4- click continue","first name: 12354
+last name: 468
+postal code: asf
+""username: 
+error_user
+password:
+secret_sauce
+""",an error message is displayed,Pass
+TC-047,Verify that order confirmation message is displayed after successful checkout,,"1- add a product to cart
+2- click checkout button
+3- enter valid information in all fields
+4- click continue
+5- click finish","username: 
+problem_user
+error_user
+password:
+secret_sauce","a success message is displayed
+""Thank you for your order!
+Your order has been dispatched, and will arrive just as fast as the pony can get there!""",Pass

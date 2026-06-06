@@ -1,0 +1,89 @@
+Test Case ID,Test Case Title,Pre-conditions,Test Steps,Test Data,Expected Result,Status
+TC-001,Verify that the user is redirected to the home page when providing valid credentials,user is on login page,"1- navigate to https://www.saucedemo.com
+2- enter valid credentials
+3- click login button","username: 
+standard_user
+
+password:
+secret_sauce",user is logged in successfully and redirected to the home page,Pass
+TC-002,"Verify that an appropriate error message is displayed when providing invalid credentials
+",user is on login page,"1- navigate to https://www.saucedemo.com
+2- enter invalid credentials
+3- click login button","username: 
+ahmed1234
+
+pasword:
+asf 1234","login is failed and an error message is displayed
+""Epic sad face: Username and password do not match any user in this service""
+",Pass
+TC-003,"Verify that an appropriate error message is displayed when providing invalid username
+",user is on login page,"1- navigate to https://www.saucedemo.com
+2- enter invalid username
+3- click login button","username: 
+ahmed1234
+
+password:
+secret_sauce","login is failed and an error message is displayed
+""Epic sad face: Username and password do not match any user in this service""
+",Pass
+TC-004,Verify that an appropriate error message is displayed when providing invalid password,user is on login page,"1- navigate to https://www.saucedemo.com
+2- enter invalid password
+3- click login button","username: 
+standard_user
+
+password:
+asf 1234","login is failed and an error message is displayed
+""Epic sad face: Username and password do not match any user in this service""
+",Pass
+TC-005,"Verify that an appropriate error message is displayed when login with spaces in credentials
+",user is on login page,"1- navigate to https://www.saucedemo.com
+2- enter invalid credentials
+3- click login button","username: 
+stan dard_user
+
+password:
+secr et_sauce
+","Login is rejected and an appropriate error message is displayed
+""Epic sad face: Username and password do not match any user in this service.""",Pass
+TC-006,"Verify that an appropriate error message is displayed when leaving fields empty
+",user is on login page,"1- navigate to https://www.saucedemo.com
+2- leaving fields empty
+3- click login button","username: empty
+
+password:empty
+","Login is rejected and an appropriate error message is displayed
+""Epic sad face: Username is required""
+",Pass
+TC-007,Verify that an appropriate error message is displayed when leaving username field empty,user is on login page,"1- navigate to https://www.saucedemo.com
+2- leaving username field empty
+3- click login button","username: empty
+
+password: secret_sauce
+","Login is rejected and an appropriate error message is displayed
+""Epic sad face: Username is required""
+",Pass
+TC-008,Verify that an appropriate error message is displayed when leaving password field empty,user is on login page,"1- navigate to https://www.saucedemo.com
+2- leaving password field empty
+3- click login button","username: standard_user
+
+password: empty
+","Login is rejected and an appropriate error message is displayed
+""Epic sad face: Password is required""",Pass
+TC-009,"Verify that an appropriate error message is displayed when login with locked account
+",user is on login page,"1- navigate to https://www.saucedemo.com
+2- login with locked account
+3- click login button","username: 
+locked_out_user
+
+password:
+secret_sauce
+","Login is rejected and an appropriate error message is displayed
+""Epic sad face: Sorry, this user has been locked out.""",Pass
+TC-010,Verify that user can log out successfully,user is logged in and on the products page,"1- click menu button
+2- click logout button",,user is redirected to login page,Pass
+TC-011,Verify that session is cleared after logout ,user is logged out,1- try accessing products page via back button,,user isn't able to access system after logout,Pass
+TC-008,,,,,,
+TC-009,,,,,,
+TC-010,,,,,,
+TC-011,,,,,,
+TC-012,,,,,,

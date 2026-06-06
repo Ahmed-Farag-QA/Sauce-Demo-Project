@@ -1,0 +1,64 @@
+Test Case ID,Test Case Title,Pre-conditions,Test Steps,Test Data,Expected Result,Status
+TC-027,Verify that user can proceed to checkout page from cart page,user is logged in and on the products page,"1- add a product to cart
+2- click on cart button",,user is redirected to checkout information page,Pass
+TC-028,Verify that the checkout button is displayed in the correct position,user is logged in and on the cart page,"1- add a product to cart
+2- click on cart button
+3- observe the position of the checkout button",,cart badge is displayed clear in the lower right corner,Fail
+TC-029,Verify that checkout continues when providing valid information,user is logged in and on the products page,"1- add a product to cart
+2- click checkout button
+3- enter valid information in all fields
+4- click continue","first name: ahmed
+last name: farag
+postal code: 11351
+",user is redirected to checkout overview page,Pass
+TC-030,Verify that order confirmation message is displayed after successful checkout,user is logged in and on the products page,"1- add a product to cart
+2- click checkout button
+3- enter valid information in all fields
+4- click continue
+5- click finish","first name: ahmed
+last name: farag
+postal code: 11351
+","a success message is displayed
+""Thank you for your order!
+Your order has been dispatched, and will arrive just as fast as the pony can get there!""",Pass
+TC-031,Verify that an error message is displayed when providing invalid information,user is logged in and on the products page,"1- add a product to cart
+2- click checkout button
+3- enter invalid information in all fields
+4- click continue","first name: 12354
+last name: 468
+postal code: asf
+",an error message is displayed,Fail
+TC-032,Verify that all fields in checkout information page accept data,user is logged in and on the products page,"1- add a product to cart
+2- click checkout button
+3- enter any data in all fields
+4- click continue","first name: sdf 12354
+last name: sd468
+postal code: asf
+",an error message is displayed,Fail
+TC-033,Verify that an error message is displayed when leaving one or all fields empty,user is logged in and on the products page,"1- add a product to cart
+2- click checkout button
+3- leaving all fields empty
+4- click continue",,an error message is displayed indicating required fields,Pass
+TC-034,Verify that user can cancel checkout process,user is logged in and on the products page,"1- add a product to cart
+2- click checkout button
+3- enter valid information in all fields
+4- click cancel","first name: ahmed
+last name: farag
+postal code: 11351
+",user is redirected back to the cart page,Pass
+TC-035,Verify that total price is calculated correctly during checkout,user is logged in and on the products page,"1- add a product to cart
+2- click checkout button
+3- enter valid information in all fields
+4- click continue
+5- check item total price","first name: ahmed
+last name: farag
+postal code: 11351
+",total prices are calculated correctly,Pass
+TC-036,Verify that total tax is calculated correctly during checkout,user is logged in and on the products page,"1- add a product to cart
+2- click checkout button
+3- enter valid information in all fields
+4- click continue
+5- check tax value","first name: ahmed
+last name: farag
+postal code: 11351
+",tax is correctly added to total price,Pass

@@ -1,0 +1,18 @@
+Test Case ID,Test Case Title,Pre-conditions,Test Steps,Test Data,Expected Result,Status
+TC-020,Verify that cart badge is updated correctly after add or remove item,user is logged in and on the products page,"1- click add to cart button for a product
+2- click remove button",,the cart badge is updated correctly after add or remove item,Pass
+TC-021,Verify that cart state persists after refreshing the page,user is logged in and on the products page,"1- click add to cart button for a product
+2- refresh the page",,the added products remain in cart,Pass
+TC-022,Verify that the cart icon is displayed in the correct position,user is logged in using visual_user and on the products page,1- observe the position of the cart icon,,cart badge is displayed clear in the upper right corner,Fail
+TC-023,Verify that the product's price is displayed correctly,user is logged in and on the products page,"1- click add to cart button for a product
+2- click on the cart symbol in the upper right corner
+3- observe the price",,the same price from the products page is displayed in the cart page,Pass
+TC-024,Verify that the product's details is displayed correctly,user is logged in and on the products page,"1- click add to cart button for a product
+2- click on the cart symbol in the upper right corner
+3- observe the details",,the same details from the products page is displayed in the cart page,Pass
+TC-025,Verify that the user can remove the product from cart in the cart page,user is logged in and on the products page,"1- click add to cart button for a product
+2- click on the cart symbol in the upper right corner
+3- click remove button",,the product is removed correctly,Pass
+TC-026,"Verify that the user can return to the products page by clicking on ""continue shopping"" button",user is logged in and on the products page,"1- click add to cart button for a product
+2- click on the cart symbol in the upper right corner
+3- click continue shopping button",,user is redirected to the products page,Pass

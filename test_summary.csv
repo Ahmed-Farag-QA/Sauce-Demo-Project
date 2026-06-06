@@ -1,0 +1,12 @@
+Project Name,Swag Labs - Sauce Demo
+Testing Type,Manual Testing
+Features Tested,"Login, Add to Cart, Checkout and logout"
+Total Test Cases,47
+Passed,34
+Failed,13
+Total Bugs Reported,13
+Critical Bugs,5
+High Bugs,5
+Medium Bugs,3
+Low Bugs,0
+Test Result,Core functionalities were tested successfully. Several defects were identified and documented in the Bug Report sheet.

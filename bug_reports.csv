@@ -1,0 +1,86 @@
+Test Case ID,Bug ID,Bug Title,Description,Steps to Reproduce,Expected Result,Actual Result,Environment,Attachments,Severity
+TC-022,BUG-001,Cart icon is displayed above the Sort dropdown instead of its correct position in the header layout,,"1- navigate to https://www.saucedemo.com
+2- enter visual_user in username field
+3- enter secret_sauce in password field 
+4- click login button""
+5- observe the position of the Cart icon",Cart icon should be properly aligned in the header next to the Sort dropdown without overlapping,Cart icon is displayed above the Sort dropdown instead of its correct position in the header layout,Edge,,Medium
+TC-028,BUG-002,Checkout button is displayed at the top right instead of bottom right in cart page,,"1- navigate to https://www.saucedemo.com
+2- enter visual_user in username field
+3- enter secret_sauce in password field 
+4- click login button""
+5- click on the cart icon
+5- observe the position of the checkout button",Checkout button should be displayed at the bottom right of the cart page,Checkout button is displayed at the top right of the page,Edge,,Medium
+TC-031,BUG-003,user is redirected to checkout overview page after providing invalid information,,"1- navigate to https://www.saucedemo.com
+2- enter standard_user in username field
+3- enter secret_sauce in password field 
+4-click login button""
+5- add a product to cart
+6- click on the cart button
+7- click on checkout button
+8- enter invalid data in all fields",an error message is displayed,no an error message is displayed and user is redirected to checkout overview page after providing invalid information,Edge,,Critical
+TC-032,BUG-004,user can't enter any data in the last name field in the checkout information page,,"1- navigate to https://www.saucedemo.com
+2- enter standard_user in username field
+3- enter secret_sauce in password field 
+4-click login button""
+5- add a product to cart
+6- click on the cart button
+7- click on checkout button
+8- enter valid first name
+9- enter valid last name",user can enter any data in the last name field ,user can't enter any data in the last name field ,Edge,,High
+TC-037,BUG-005,the same image is displayed for all products,,"1- navigate to https://www.saucedemo.com
+2- enter problem_user in username field
+3- enter secret_sauce in password field 
+4-click login button""
+5- observe all product's images carefully",The appropriate image for each product is displayed,the same image is displayed for all products,Edge,,High
+TC-038,BUG-006,incorrect format is displayed in the description for BackPack product,,"1- navigate to https://www.saucedemo.com
+2- enter problem_user in username field
+3- enter secret_sauce in password field 
+4-click login button""
+4- observe the description for BackPack product carefully",the description is written in a correct format,wrong format is displayed,Edge,,Medium
+TC-039,BUG-007,the products aren't sorted by Name (Z to A) correctly,,"1- navigate to https://www.saucedemo.com
+2- enter error_user in username field
+3- enter secret_sauce in password field 
+4- click login button""
+5- click sort dropdown
+6- select by Name (A to Z) option",products are sorted by Name (A to Z),"an error message is displayed ""Sorting is broken! This error has been reported to Backtrace.""",Edge,,High
+TC-040,BUG-008,the products aren't sorted by Name (A to Z) correctly,,"1- navigate to https://www.saucedemo.com
+2- enter error_user in username field
+3- enter secret_sauce in password field 
+4- click login button""
+5- click sort dropdown
+6- select by Name (Z to A) option",products are sorted by Name (Z to A),"an error message is displayed ""Sorting is broken! This error has been reported to Backtrace.""",Edge,,High
+TC-041,BUG-009,the products aren't sorted by Price (low to high) correctly,,"1- navigate to https://www.saucedemo.com
+2- enter error_user in username field
+3- enter secret_sauce in password field 
+4- click login button""
+5- click sort dropdown
+6- select by Price (low to high) option",products are sorted  by Price (low to high),"an error message is displayed ""Sorting is broken! This error has been reported to Backtrace.""",Edge,,High
+TC-042,BUG-010,the products aren't sorted by Price (high to low ) correctly,,"1- navigate to https://www.saucedemo.com
+2- enter error_user in username field
+3- enter secret_sauce in password field 
+4- click login button""
+5- click sort dropdown
+6- select by Price (high to low ) option",products are sorted by Price (high to low ),"an error message is displayed ""Sorting is broken! This error has been reported to Backtrace.""",Edge,,High
+TC-043,BUG-011,Add to cart button is not working for all products,,"1- navigate to https://www.saucedemo.com
+2- enter problem_user in username field
+3- enter secret_sauce in password field 
+4- click login button""
+5- click on add to cart button for all products",the product is added to cart successfully,Add to cart button is not clickable,Edge,,Critical
+TC-044,BUG-012,Remove button is not working for all products,,"1- navigate to https://www.saucedemo.com
+2- enter problem_user in username field
+3- enter secret_sauce in password field 
+4- click login button""
+5- click on add to cart button for all products
+6- click remove button for all products",the product is removed successfully,Remove button is not clickable,,,Critical
+TC-045,BUG-013,finish button in checkout overview page isn't clickable,,"1- navigate to https://www.saucedemo.com
+2- enter error_user in username field
+3- enter secret_sauce in password field 
+4- click login button""
+5- add a product to cart
+6- click on cart symbol in the upper right corner
+7- click on checkout button
+8- enter valid data in all fields
+9- click on continue button
+10- click on finish button","a success message is displayed
+""Thank you for your order!
+Your order has been dispatched, and will arrive just as fast as the pony can get there!""",finish button isn't clickable,Edge,,Critical

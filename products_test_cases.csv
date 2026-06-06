@@ -1,0 +1,14 @@
+Test Case ID,Test Case Title,Pre-conditions,Test Steps,Test Data,Expected Result,Status
+TC-012,Verify that product's images are displayed correctly,user is logged in and on the products page,1- observe all products carefully,,all product's images are displayed correctly,Pass
+TC-013,Verify that product's details are displayed correctly,user is logged in and on the products page,1- observe all products carefully,,correct details are displayed for all products,Pass
+TC-014,Verify that the products are sorted by Name (A to Z) correctly,user is logged in and on the products page,"1- click sort dropdown
+2- select Name (A to Z)",,the products are sorted by Name (A to Z) correctly,Pass
+TC-015,Verify that the products are sorted by Name (Z to A) correctly,user is logged in and on the products page,"1- click sort dropdown
+2- select Name (Z to A)",,the products are sorted by Name (Z to A) correctly,Pass
+TC-016,Verify that the products are sorted by Price (low to high) correctly,user is logged in and on the products page,"1- click sort dropdown
+2- select Price (low to high)",,the products are sorted by Price (low to high) correctly,Pass
+TC-017,Verify that the products are sorted by Price (high to low) correctly,user is logged in and on the products page,"1- click sort dropdown
+2- select Price (high to low)",,the products are sorted by Price (high to low) correctly,Pass
+TC-018,"Verify that all products can added to cart after clicking ""Add to cart"" button",user is logged in and on the products page,1- click add to cart button for a product,,the product is added to cart successfully,Pass
+TC-019,"Verify that the product is removed from cart when clicking ""Remove"" button",user is logged in and on the products page,"1- click add to cart button for a product
+2- click remove button",,the product is removed from cart successfully,Pass
