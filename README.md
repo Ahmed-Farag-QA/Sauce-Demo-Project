@@ -35,5 +35,5 @@ https://www.saucedemo.com/
 
 ## Author
 
-*Ahmed Farag
-*Junior Software Tester
+Ahmed Farag
+ Junior Software Tester
