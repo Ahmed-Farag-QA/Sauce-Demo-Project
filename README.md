@@ -53,12 +53,12 @@ A high-level summary report showing the overall test execution results, includin
 * **Google Sheets:** Test management, defect tracking, and summary reporting organized cleanly across multiple tabs.
 * **GitHub:** Portfolio hosting and documentation.
 
-## Application tested Link
+---
 
-https://www.saucedemo.com/
+## 🔗 Quick Links
+* **Tested Application:** [Sauce Demo (Swag Labs)](https://www.saucedemo.com/)
 
-## Author
+---
 
-Ahmed Farag
-
-Junior Software Tester
+## 👤 Author
+* **Ahmed Farag** *Junior Software Tester / QA Engineer*
