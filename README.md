@@ -9,10 +9,10 @@ The objective of this project is to perform end-to-end manual testing on the Sau
 
 ### 🔍 Scope of Testing
 * **Authentication Module:** Login with valid, invalid, locked-out, and problem users, along with a secure logout flow.
-* **Special Users Testing:** Validating system behavior and edge cases under specific user profiles (e.g., locked-out, problem, and performance glitch users).
 * **Product Catalog:** Sorting functionality (A-Z, Z-A, Price Low-High, Price High-Low) and product detail validation.
 * **Shopping Cart:** Adding/removing items, cart counter persistence, and state changes.
 * **Checkout Workflow:** Form validation (First Name, Last Name, Zip Code), price calculation accuracy, and order completion flow.
+* **Special Users Testing:** Validating system behavior and edge cases under specific user profiles (e.g., locked-out, problem, and performance glitch users).
 
 ---
 
@@ -24,10 +24,10 @@ A comprehensive set of test cases divided by features to ensure maximum test cov
 
 #### 📂 Quick Previews on GitHub (Tab-separated CSV Files):
 * [Authentication Test Cases (Login & Logout)](authentication_test_cases.csv)
-* [Special Users Testing (Edge Cases)](special_users_test_cases.csv)
 * [Products & Sorting Test Cases](products_test_cases.csv)
 * [Shopping Cart Test Cases](cart_test_cases.csv)
 * [Checkout Flow Test Cases](checkout_test_cases.csv)
+* [Special Users Testing (Edge Cases)](special_users_test_cases.csv)
 
 ---
 
