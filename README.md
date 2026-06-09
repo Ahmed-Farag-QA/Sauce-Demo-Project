@@ -33,9 +33,7 @@ A comprehensive set of test cases divided by features to ensure maximum test cov
 
 ### 2️⃣ Bug Reports
 Detailed defect reports documented with clear steps to reproduce, actual vs. expected results, severity, priority, and status.
-* 🔴 **[Click Here to View Live Bug Reports on Google Sheets](https://docs.google.com/spreadsheets/d/1ZsUJqKFxnauA_YAjxmOGC-WY7of06sXnhlbpkomfQPM/edit?gid=175836015#gid=175836015)**
-
-> **Note:** You can also click on the `bug_reports.csv` file uploaded directly in this repository for a quick tabular review.
+*   [Bug Report](bug_reports.csv)
 
 ---
 
